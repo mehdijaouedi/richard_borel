@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.jpeg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Add this inside the <head> tag in public/index.html -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rodolphe Meyer</title>
+
+    <!-- Add global styles here -->
+    <style>
+      :root {
+        --primary-blue: #1e40af;
+        --secondary-blue: #3b82f6;
+        --accent-blue: #60a5fa;
+        --light-blue: #f1f5f9;
+        --very-light-blue: #f8fafc;
+        --dark-blue: #1e3a8a;
+        --text-dark: #0f172a;
+        --text-light: #334155;
+        --white: #ffffff;
+        --shadow-blue: rgba(59, 130, 246, 0.08);
+      }
+      
+      body {
+        background: #ffffff;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        color: var(--text-dark);
+      }
+      
+      /* Special blue theme enhancements */
+      .blue-gradient {
+        background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--primary-blue) 100%);
+      }
+      
+      .blue-shadow {
+        box-shadow: 0 4px 20px var(--shadow-blue);
+      }
+      
+      .blue-border {
+        border: 2px solid var(--accent-blue);
+      }
+      
+      /* You can add any other global styles here */
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
