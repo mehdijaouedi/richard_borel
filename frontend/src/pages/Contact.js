@@ -43,7 +43,7 @@ const ContactPage = () => {
           <Email sx={{ color: '#3b82f6', fontSize: 30 }} />
           <Typography
             component="a"
-            href="mailto:richardborel.expert@gmail.com"
+            href="mailto:contact@richardborel-expert.com"
             sx={{
               color: '#1e293b',
               textDecoration: 'none',
@@ -55,11 +55,10 @@ const ContactPage = () => {
               },
             }}
           >
-            richardborel.expert@gmail.com
-          </Typography>
+contact@richardborel-expert.com          </Typography>
         </Box>
 
-        <Box display="flex" alignItems="center" gap={2}>
+        {/* <Box display="flex" alignItems="center" gap={2}>
           <Phone sx={{ color: '#3b82f6', fontSize: 30 }} />
           <Typography
             component="a"
@@ -77,7 +76,7 @@ const ContactPage = () => {
           >
             +41 31 900 19 40
           </Typography>
-        </Box>
+        </Box> */}
 
         <Box display="flex" alignItems="center" gap={2}>
           <LocationOn sx={{ color: '#3b82f6', fontSize: 30 }} />
